@@ -1,0 +1,6 @@
+<mod name="Viewmodel Recoil (No Camera Recoil)" author="Offyerrocker" color="Color(1,1,1)" >
+	<AssetUpdates id="48966" version="1.0.2" provider="modworkshop" install_directory="mods/" version_is_number="true" />
+	<Localization directory="l10n" default="en.json">
+		<loc file="en.json" language="english" />
+	</Localization>
+</mod>

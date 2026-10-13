@@ -1,0 +1,24 @@
+{
+	"name" : "Viewmodel Recoil (No Camera Recoil)",
+	"description" : "Changes weapon recoil to move the viewmodel instead of the camera.",
+	"author" : "Offyerrocker",
+	"contact" : "Find me in the MWS Discord: https://discord.gg/Eear4JW",
+	"version" : "1.0.2",
+	"image" : "icon.png",
+	"blt_version" : 2,
+	"color" : "255 255 255",
+	"hooks" : [
+		{
+			"hook_id" : "lib/managers/menumanager",
+			"script_path" : "lua/menumanager.lua"
+		},
+		{
+			"hook_id" : "lib/units/beings/player/states/playerstandard",
+			"script_path" : "lua/playerstandard.lua"
+		},
+		{
+			"hook_id" : "lib/units/cameras/fpcameraplayerbase",
+			"script_path" : "lua/fpcameraplayerbase.lua"
+		}
+	]
+}

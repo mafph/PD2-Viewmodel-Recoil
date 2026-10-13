@@ -1,0 +1,9 @@
+{
+	"menu_viewmodelrecoil_title" : "Viewmodel Recoil",
+	"menu_viewmodelrecoil_recoil_enabled_title" : "Enable Viewmodel-based Recoil",
+	"menu_viewmodelrecoil_recoil_enabled_desc" : "If true, moves the viewmodel instead of the camera during weapon recoil.",
+	"menu_viewmodelrecoil_steelsightrecoil_enabled_title" : "Steelsight Camera Recoil",
+	"menu_viewmodelrecoil_steelsightrecoil_enabled_desc" : "If true, allows moving the camera during weapon recoil (uses default PD2 behavior)",
+	"menu_viewmodelrecoil_staticrecoil_enabled_title" : "Static Recoil",
+	"menu_viewmodelrecoil_staticrecoil_enabled_desc" : "Prevents camera re-centering after muzzle climb. Only applicable to camera-based recoil."
+}

@@ -1,0 +1,39 @@
+{
+	"menu_id" : "viewmodelrecoil_options",
+	"parent_menu_id" : "blt_options",
+	"title" : "menu_viewmodelrecoil_title",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "viewmodelrecoil_recoil_enabled",
+			"title" : "menu_viewmodelrecoil_recoil_enabled_title",
+			"description" : "menu_viewmodelrecoil_recoil_enabled_desc",
+			"callback" : "callback_viewmodelrecoil_recoil_enabled",
+			"value" : "viewmodel_recoil_enabled"
+		},
+		{
+			"type" : "divider",
+			"size" : 8
+		}
+		{
+			"type" : "toggle",
+			"id" : "viewmodelrecoil_steelsightrecoil_enabled",
+			"title" : "menu_viewmodelrecoil_steelsightrecoil_enabled_title",
+			"description" : "menu_viewmodelrecoil_steelsightrecoil_enabled_desc",
+			"callback" : "callback_viewmodelrecoil_steelsightrecoil_enabled",
+			"value" : "steelsight_camera_recoil_enabled"
+		},
+		{
+			"type" : "divider",
+			"size" : 8
+		}
+		{
+			"type" : "toggle",
+			"id" : "viewmodelrecoil_staticrecoil_enabled",
+			"title" : "menu_viewmodelrecoil_staticrecoil_enabled_title",
+			"description" : "menu_viewmodelrecoil_staticrecoil_enabled_desc",
+			"callback" : "callback_viewmodelrecoil_staticrecoil_enabled",
+			"value" : "static_recoil_enabled"
+		}
+	]
+}
